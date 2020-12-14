@@ -160,9 +160,7 @@ const App = () => {
                     <div className={landingStyles.inner_hero}>
                         <div ref={el => mainLogo = el} className={landingStyles.inner_hero_container}>
                             <img src={logo} alt="Pink Logo"/>
-                            <div className={landingStyles.inner_hero_line}>
-                                {/* <h1>Full</h1> */}
-                            </div>
+
                             <div className={landingStyles.inner_hero_line}>
                                 <h2>Full Stack Developer</h2>
                             </div>
