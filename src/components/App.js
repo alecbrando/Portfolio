@@ -12,6 +12,8 @@ import logo from './images/logo.png';
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
 import img3 from './images/img3.png';
+import img4 from './images/img4.png';
+
 // import img4 from './images/img4.jpg';
 // import img5 from './images/img5.jpg';
 import upperWave from './images/upperWave.svg';
@@ -167,7 +169,7 @@ const App = () => {
                         </div>
                         <section ref={el => section = el}>
                             <a href="#projects">Projects</a><span className={landingStyles.line}>|</span>
-                            <a href="#about">About</a><span className={landingStyles.line}>|</span>
+                            <a href="#about">Contact</a><span className={landingStyles.line}>|</span>
                             <a href="https://github.com/alecbrando" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </section>
                     </div>
@@ -200,6 +202,31 @@ const App = () => {
                              descPink2='User authentication'
                              descBlack3='made possible using JWT Token in the '
                              descPink3='backend.'
+                             />
+                             <Project
+                             img={img4}
+                             title='Twitchr'
+                             skill1='React'
+                             skill2='Redux'
+                             skill3='Sequelize'
+                             skill4='Express'
+                             skill5='CSS/SCSS'
+                             skill6='Javascript'
+                             skill7='NodeJS'
+                             skill8='AWS'
+                             url1='https://twitchrr.herokuapp.com/'
+                             url2='https://github.com/alecbrando/Twitchr'
+                             url3=''
+                             dribble='false'
+                             descBlack1='A'
+                             descPink1='Solo'
+                             descBlack2='project clone of Unsplash built'
+                             descPink2=' with a Express on the backend.'
+                             descBlack3='Utilizing AWS technology to store users photos and store the url reference in the backend maintained by '
+                             descPink3='React / Redux.'
+                             descBlack4='User'
+                             descPink4='authentication'
+                             descBlack5='was accomplished with a JWT and CSRF.'
                              />
                             <Project
                              img={img2}
@@ -256,6 +283,7 @@ const App = () => {
                             <h4>Software Engineer<strong> |</strong><span> Alec Garcia</span></h4>
                             <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, Redux, Javascript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/u/2/d/e/2PACX-1vT1Ti-aqFSUzszkzYeYMyRuLxPSnU4UfwJpFWALKliF8e5DpK7JiqirFWVuKGl5G8B0E22M0RexCa8q/pub">Resume</a></strong></p>
                             <p>Delivering a fast and elegant user experience is at the heart of my programming philosphy.</p>
+                            <p><a  href="mailto:alecbrandongarcia@gmail.com">Send email</a></p>
                         </div>
                         <hr/>
                         <div ref={el => skills = el} className={landingStyles.content_skills}>
