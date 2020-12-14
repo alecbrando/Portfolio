@@ -1,0 +1,41 @@
+@import "./variables";
+@import "./media";
+
+.footer {
+  @include flex-custom(row, center, center);
+  background: $dark-black;
+  height: 250px;
+  width: 100%;
+  .inner_footer {
+    @include flex-custom(column, center, center);
+    height: 130px;
+    width: 430px;
+    * {
+      color: $color-white;
+    }
+    img {
+      width: 100px;
+    }
+    ul {
+      @include flex-custom(row, space-between, center);
+      width: 100%;
+      margin: 0;
+      height: 65px;
+      padding: 0;
+      li {
+        @include flex-custom(row, space-between, center);
+        width: 165px;
+        list-style-type: none;
+        a {
+          font-weight: 500;
+          font-size: 14px;
+          text-decoration: none;
+        }
+      }
+    }
+    p {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+}

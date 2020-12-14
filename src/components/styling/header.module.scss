@@ -1,0 +1,90 @@
+@import "./variables";
+@import "./media";
+
+.header {
+  @include flex-custom(row, center, center);
+  z-index: 999;
+  background-color: $dark-black;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  .hamburger {
+    background-color: transparent;
+    border: 0;
+    color: $color-white;
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  .message {
+    @include flex-custom(row, center, center);
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    color: $color-white;
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    animation: message 1s ease-in-out;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  .inner_header {
+    @include flex-custom(row, space-between, center);
+    width: 80%;
+    flex-wrap: wrap;
+    a {
+      @include flex-custom(row, center, center);
+      img {
+        max-width: 60px;
+        cursor: crosshair;
+      }
+    }
+    .header_anchors {
+      @include flex-custom(row, space-between, center);
+      padding: 0;
+      width: 250px;
+      list-style-type: none;
+      text-transform: uppercase;
+      font-size: 13px;
+      a {
+        text-decoration: none;
+        color: $color-white;
+        display: inline-block;
+        &::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 2px;
+          background-color: $brand-color;
+          transition: width 0.2s;
+        }
+        &:hover::after {
+          width: 100%;
+          transition: width 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  display: inline-block !important;
+}
+
+@keyframes message {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

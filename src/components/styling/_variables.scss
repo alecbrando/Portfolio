@@ -1,0 +1,13 @@
+$color-white: #fff;
+$color-black: #fff;
+$dark-black: #111111;
+$grey: #141414;
+$brand-color: #e91e63;
+$brand-color-hover: #f30943;
+
+@mixin flex-custom($d, $j, $a) {
+  display: flex;
+  flex-direction: $d;
+  justify-content: $j;
+  align-items: $a;
+}

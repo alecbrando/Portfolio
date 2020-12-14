@@ -1,0 +1,139 @@
+@import "../styling/variables";
+@import "./media";
+
+.project_container {
+  @include flex-custom(row-reverse, flex-start, center);
+  height: 310px;
+  width: 100%;
+  color: $color-white;
+  &:nth-child(2n + 1) {
+    flex-direction: row;
+    .project_content_inner {
+      right: 3.5rem !important;
+    }
+  }
+  .project_content {
+    height: 100%;
+    position: relative;
+    width: stretch;
+    .project_content_inner {
+      @include flex-custom(column, space-between, flex-start);
+      height: 230px;
+      width: 230px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      text-align: left;
+      h4 {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+        margin: 0;
+        &:before {
+          border-top: 1px solid $brand-color;
+          content: "";
+          position: absolute;
+          left: -7rem;
+          top: 50%;
+          width: 100px;
+        }
+      }
+      h5 {
+        margin: 0;
+        font-size: 16px;
+      }
+      .project_content_list {
+        @include flex-custom(row, center, center);
+        height: 84px;
+        width: 100%;
+        .project_content_list_ul1 * {
+          color: $brand-color;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          width: 50%;
+          height: 84px;
+          li {
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+      }
+      .buttons {
+        position: relative;
+        bottom: 4px;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: inherit;
+          font-size: 10px !important;
+          margin-right: 0.55rem !important;
+          font-weight: 400;
+          border: 1px solid white;
+          padding: 0.4rem 0.5rem !important;
+          transition: 0.4s ease;
+          &:last-of-type {
+            padding: 0.22rem 0.4rem !important;
+            position: relative;
+            top: 1px;
+            font-size: 14px !important;
+          }
+          &:hover {
+            cursor: crosshair;
+            background-color: $color-white;
+            color: $dark-black;
+          }
+        }
+      }
+    }
+  }
+  .image {
+    @include flex-custom(center, center, center);
+    position: relative;
+    img {
+      width: 600px;
+      height: 100%;
+      object-fit: contain;
+      position: relative;
+    }
+    .image_overlay {
+      @include flex-custom(center, center, center);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      cursor: crosshair;
+      opacity: 0;
+      transition: 0.5s ease-in-out;
+      .image_desc {
+        text-align: center;
+        line-height: 25px;
+        font-weight: 500;
+        font-size: 13px;
+        width: 70%;
+        span {
+          color: $brand-color;
+        }
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@keyframes imgHover {
+  from {
+    opacity: 0;
+    height: 5%;
+  }
+  to {
+    opacity: 1;
+    height: 100%;
+  }
+}
