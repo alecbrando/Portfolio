@@ -14,8 +14,6 @@ import img2 from './images/img2.png';
 import img3 from './images/img3.png';
 import img4 from './images/img4.png';
 
-// import img4 from './images/img4.jpg';
-// import img5 from './images/img5.jpg';
 import upperWave from './images/upperWave.svg';
 import lowerWave from './images/lowerWave.svg';
 
@@ -160,14 +158,16 @@ const App = () => {
                     <div className={landingStyles.inner_hero}>
                         <div ref={el => mainLogo = el} className={landingStyles.inner_hero_container}>
                             <img src={logo} alt="Pink Logo"/>
-
+                            <div className={landingStyles.inner_hero_line}>
+                                {/* <h1>Full</h1> */}
+                            </div>
                             <div className={landingStyles.inner_hero_line}>
                                 <h2>Full Stack Developer</h2>
                             </div>
                         </div>
                         <section ref={el => section = el}>
                             <a href="#projects">Projects</a><span className={landingStyles.line}>|</span>
-                            <a href="#about">Contact</a><span className={landingStyles.line}>|</span>
+                            <a href="#about">About</a><span className={landingStyles.line}>|</span>
                             <a href="https://github.com/alecbrando" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </section>
                     </div>
