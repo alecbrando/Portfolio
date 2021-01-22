@@ -191,16 +191,16 @@ const App = () => {
                              skill6='AWS Cognito'
                              skill7='AWS DynamoDB'
                              skill8='Expo CLI'
-                             url1=''
+                             url1='https://github.com/alecbrando/whatsAppClone'
                              url2='https://github.com/alecbrando/whatsAppClone'
                              url3=''
                              dribble='false'
                              descBlack1='WhatsApp clone is that is made with '
                              descPink1=' React Native / Redux'
-                             descBlack2='. This application connects to Flask API end routes that populates the website with Cameras instead of shoes.'
-                             descPink2='User authentication'
-                             descBlack3='made possible using JWT Token in the '
-                             descPink3='backend.'
+                             descBlack2='. This is a serverless backend with AWS AppSync that connects to DynamoDB through GraphQL.'
+                             descPink2='User authentication is done with AWS Cognito '
+                             descBlack3='Pool which was implemented with AWS amplify. '
+                             descPink3='Lastly this was all done with the Expo CLI client.'
                              />
                             <Project
                              img={img1}
