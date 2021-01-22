@@ -13,6 +13,7 @@ import img1 from './images/img1.png';
 import img2 from './images/img2.png';
 import img3 from './images/img3.png';
 import img4 from './images/img4.png';
+import img5 from './images/whatsapp.png';
 
 import upperWave from './images/upperWave.svg';
 import lowerWave from './images/lowerWave.svg';
@@ -179,6 +180,28 @@ const App = () => {
                             <h3>Featured Work</h3>
                         </div>
                         <div ref={el => projectList = el} className={landingStyles.workList_container_projects}>
+                            <Project
+                             img={img5}
+                             title='WhatsApp Clone'
+                             skill1='React Native'
+                             skill2='Redux'
+                             skill3='GraphQL'
+                             skill4='AWS Amplify'
+                             skill5='AWS AppSync'
+                             skill6='AWS Cognito'
+                             skill7='AWS DynamoDB'
+                             skill8='Expo CLI'
+                             url1=''
+                             url2='https://github.com/alecbrando/whatsAppClone'
+                             url3=''
+                             dribble='false'
+                             descBlack1='WhatsApp clone is that is made with '
+                             descPink1=' React Native / Redux'
+                             descBlack2='. This application connects to Flask API end routes that populates the website with Cameras instead of shoes.'
+                             descPink2='User authentication'
+                             descBlack3='made possible using JWT Token in the '
+                             descPink3='backend.'
+                             />
                             <Project
                              img={img1}
                              title='Digitize'
