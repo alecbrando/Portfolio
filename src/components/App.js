@@ -312,15 +312,15 @@ const App = () => {
                             <ul>
                                 <li>
                                     <h5><span>Front End</span>:</h5>
-                                    <section>React, Redux JavaScript, HTML, CSS/SCSS, Front-end Frameworks  <p> - (Bootstrap / Material-UI / Semantic ui)</p> </section>
+                                    <section>React, React Native, Redux, JavaScript, HTML, CSS/SCSS, Front-end Frameworks  <p> - (Bootstrap / Material-UI / Semantic ui)</p> </section>
                                 </li>
                                 <li>
                                     <h5><span>Backend</span>:</h5>
-                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python</p>
+                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python, GraphQL</p>
                                 </li>
                                 <li id='contact'>
                                     <h5><span>Other</span>:</h5>
-                                    <p>Git/GitHub, Docker, AWS</p>
+                                    <p>Git/GitHub, Docker, AWS AppSync, AWS Amplify</p>
                                 </li>
                                 <li>
                                     <h5><span>Learning</span>:</h5>
