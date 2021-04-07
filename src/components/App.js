@@ -14,6 +14,7 @@ import img2 from './images/img2.png';
 import img3 from './images/img3.png';
 import img4 from './images/img4.png';
 import img6 from './images/img6.png';
+import img7 from './images/img7.png';
 import img5 from './images/whatsapp.png';
 
 import upperWave from './images/upperWave.svg';
@@ -198,13 +199,13 @@ const App = () => {
                              dribble='false'
                              descBlack1='Red Flag App is a dating app made with '
                              descPink1=' React Native / Redux'
-                             descBlack2='. This is a serverless backend with AWS AppSync that connects to DynamoDB through GraphQL. User authentication is done with AWS Cognito'
+                             descBlack2='. This is a serverless backend with AWS AppSync that connects to DynamoDB through GraphQL. User authentication is established with an OTP through SMS done with AWS Cognito'
                              descPink2=' which was implemented with AWS amplify. AWS S3 bucket was executed with userId separated folder’s and key’s accessing each photo. '
                              descBlack3='Distances between users was handled by geohashing the users location and distance chosen. '
                              descPink3='Lastly this was all done with the Expo CLI client.'
                              />
                             <Project
-                             img={img6}
+                             img={img7}
                              title='High Grade'
                              skill1='React Native'
                              skill2='Redux'
@@ -214,16 +215,16 @@ const App = () => {
                              skill6='AWS Cognito'
                              skill7='AWS DynamoDB'
                              skill8='AWS AppSync'
-                             url1='https://redflagapp.site/'
-                             url2='https://github.com/alecbrando/whatsAppClone'
+                             url1=''
+                             url2=''
                              url3=''
                              dribble='false'
-                             descBlack1='Red Flag App is a dating app made with '
+                             descBlack1='High Grade was made with '
                              descPink1=' React Native / Redux'
                              descBlack2='. This is a serverless backend with AWS AppSync that connects to DynamoDB through GraphQL. User authentication is done with AWS Cognito'
-                             descPink2=' which was implemented with AWS amplify. AWS S3 bucket was executed with userId separated folder’s and key’s accessing each photo. '
-                             descBlack3='Distances between users was handled by geohashing the users location and distance chosen. '
-                             descPink3='Lastly this was all done with the Expo CLI client.'
+                             descPink2=' which was implemented with AWS amplify. Admin accesibility to add drop products and merch as well as send out notifications to users. '
+                             descBlack3='Lastly this was all done with the Expo CLI client. '
+                             descPink3=''
                              />
                             <Project
                              img={img5}
