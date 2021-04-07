@@ -348,7 +348,7 @@ const App = () => {
                     <div id='about' className={landingStyles.content_box}>
                         <div ref={el => about = el} className={landingStyles.content_about}>
                             <h4>Software Engineer<strong> |</strong><span> Alec Garcia</span></h4>
-                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, Redux, Javascript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/u/2/d/e/2PACX-1vT1Ti-aqFSUzszkzYeYMyRuLxPSnU4UfwJpFWALKliF8e5DpK7JiqirFWVuKGl5G8B0E22M0RexCa8q/pub">Resume</a></strong></p>
+                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, React Native, Redux, Javascript, TypeScript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/u/2/d/e/2PACX-1vT1Ti-aqFSUzszkzYeYMyRuLxPSnU4UfwJpFWALKliF8e5DpK7JiqirFWVuKGl5G8B0E22M0RexCa8q/pub">Resume</a></strong></p>
                             <p>Delivering a fast and elegant user experience is at the heart of my programming philosphy.</p>
                             <p><a  href="mailto:alecbrandongarcia@gmail.com">Send email</a></p>
                         </div>
@@ -358,15 +358,15 @@ const App = () => {
                             <ul>
                                 <li>
                                     <h5><span>Front End</span>:</h5>
-                                    <section>React, React Native, Redux, JavaScript, HTML, CSS/SCSS, Front-end Frameworks  <p> - (Bootstrap / Material-UI / Semantic ui)</p> </section>
+                                    <section>React, React Native, Redux, JavaScript, TypeScript, HTML, CSS/SCSS, Front-end Frameworks  <p> - (Bootstrap / Material-UI / Semantic ui)</p> </section>
                                 </li>
                                 <li>
                                     <h5><span>Backend</span>:</h5>
-                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python, GraphQL</p>
+                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python, GraphQL, DynamboDB</p>
                                 </li>
                                 <li id='contact'>
                                     <h5><span>Other</span>:</h5>
-                                    <p>Git/GitHub, Docker, AWS AppSync, AWS Amplify</p>
+                                    <p>Git/GitHub, Docker, AWS AppSync, AWS Amplify, S3 Bucket</p>
                                 </li>
                                 <li>
                                     <h5><span>Learning</span>:</h5>
