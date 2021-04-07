@@ -348,7 +348,7 @@ const App = () => {
                     <div id='about' className={landingStyles.content_box}>
                         <div ref={el => about = el} className={landingStyles.content_about}>
                             <h4>Software Engineer<strong> |</strong><span> Alec Garcia</span></h4>
-                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, React Native, Redux, Javascript, TypeScript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/u/2/d/e/2PACX-1vT1Ti-aqFSUzszkzYeYMyRuLxPSnU4UfwJpFWALKliF8e5DpK7JiqirFWVuKGl5G8B0E22M0RexCa8q/pub">Resume</a></strong></p>
+                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, React Native, Redux, Javascript, TypeScript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/d/1mSbuQOgh74WXe9g8VWeskz3kbu3dcmzVVvy1EIblU2E/edit?usp=sharing">Resume</a></strong></p>
                             <p>Delivering a fast and elegant user experience is at the heart of my programming philosphy.</p>
                             <p><a  href="mailto:alecbrandongarcia@gmail.com">Send email</a></p>
                         </div>
