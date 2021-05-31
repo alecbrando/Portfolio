@@ -259,9 +259,9 @@ const App = () => {
                              skill6='Javascript'
                              skill7='Git'
                              skill8='CSS/SCSS'
-                             url1='https://digitize-me.herokuapp.com/'
+                             url1=''
                              url2='https://github.com/alecbrando/Digitize'
-                             url3='https://dribbble.com/shots/14642526-Digitize-me'
+                             url3=''
                              dribble='false'
                              descBlack1='Digitize is a clone of the famous site Goat.com made with'
                              descPink1=' React / Redux'
@@ -281,7 +281,7 @@ const App = () => {
                              skill6='Javascript'
                              skill7='NodeJS'
                              skill8='AWS'
-                             url1='https://twitchrr.herokuapp.com/'
+                             url1=''
                              url2='https://github.com/alecbrando/Twitchr'
                              url3=''
                              dribble='false'
@@ -306,7 +306,7 @@ const App = () => {
                              skill6='CSS/SCSS'
                              skill7='Javascript'
                              skill8='Python'
-                             url1='http://galactic-brite.herokuapp.com/'
+                             url1=''
                              url2='https://github.com/jlgranof/Galactic-Brite'
                              url3=''
                              dribble='false'
@@ -348,7 +348,7 @@ const App = () => {
                     <div id='about' className={landingStyles.content_box}>
                         <div ref={el => about = el} className={landingStyles.content_about}>
                             <h4>Software Engineer<strong> |</strong><span> Alec Garcia</span></h4>
-                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, React Native, Redux, Javascript, TypeScript, SQLAlchemy, Flask, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/d/1mSbuQOgh74WXe9g8VWeskz3kbu3dcmzVVvy1EIblU2E/edit?usp=sharing">Resume</a></strong></p>
+                            <p>With a passion for software engineering, I have the expertise in languages and frameworks such as React, React Native, Redux, Javascript, TypeScript, SQLAlchemy, Flask, Apollo GraphQL, MongoDB, HTML and CSS. As a confident individual with the skills to succeed I envision an exciting future in the industry. <strong><a href="https://docs.google.com/document/d/1mSbuQOgh74WXe9g8VWeskz3kbu3dcmzVVvy1EIblU2E/edit?usp=sharing">Resume</a></strong></p>
                             <p>Delivering a fast and elegant user experience is at the heart of my programming philosphy.</p>
                             <p><a  href="mailto:alecbrandongarcia@gmail.com">Send email</a></p>
                         </div>
@@ -362,7 +362,7 @@ const App = () => {
                                 </li>
                                 <li>
                                     <h5><span>Backend</span>:</h5>
-                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python, GraphQL, DynamboDB</p>
+                                    <p>NodeJS, Express, Flask, SQLAlchemy, Python, GraphQL, DynamboDB, MongoDB, ApolloGraphQL</p>
                                 </li>
                                 <li id='contact'>
                                     <h5><span>Other</span>:</h5>
